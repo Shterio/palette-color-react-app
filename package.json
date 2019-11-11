@@ -4,9 +4,14 @@
   "private": true,
   "homepage": "http://shterio.github.io/palette-color-react-app",
   "dependencies": {
+    "bootstrap": "^4.3.1",
+    "chroma-js": "^2.1.0",
     "react": "^16.11.0",
+    "react-copy-to-clipboard": "^5.0.2",
     "react-dom": "^16.11.0",
-    "react-scripts": "^3.2.0"
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "^3.2.0",
+    "reactstrap": "^8.1.1"
   },
   "scripts": {
     "start": "react-scripts start",

@@ -3,6 +3,7 @@ import Palette from './components/Palette/Palette';
 import seedColors from './seedColors';
 
 import './App.css';
+import Navigation from './components/Navigation/Navigation';
 
 class App extends React.Component {
 	constructor(props) {
@@ -18,7 +19,8 @@ class App extends React.Component {
 
 	render() {
 		return (
-			<div className='App'>
+			<div className='App m-0'>
+				<Navigation name='Palette Color App' />
 				<Palette {...this.state.seedColors[2]} />
 			</div>
 		);
