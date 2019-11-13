@@ -27,8 +27,8 @@ class Navigation extends Component {
 			<div>
 				<Navbar color='light' light expand='md'>
 					<NavbarBrand href='/'>{this.props.name}</NavbarBrand>
-					<NavbarToggler onClick={this.toggle} />
-					<Collapse onClick={this.isOpen} navbar>
+					<NavbarToggler onClick={this.isOpen} />
+					<Collapse isOpen={this.state.isOpen} navbar>
 						<span>Level: {this.props.level}</span>
 						<Slider
 							defaultValue={this.props.level}
